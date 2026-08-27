@@ -1,0 +1,7 @@
+{
+  "name": "Playwright live coding",
+  "image": "mcr.microsoft.com/playwright:v1.55.0-noble",
+  "remoteUser": "root",
+  "postCreateCommand": "npm ci",
+  "forwardPorts": [9323]
+}
